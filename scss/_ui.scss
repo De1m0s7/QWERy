@@ -1,0 +1,112 @@
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px / 24px * 100%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px / 96px * 100%;
+
+    span {
+        display: block;
+    }
+
+    span:last-child {
+        font-weight: 400;
+    }
+}
+
+.title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px / 64px * 100%;
+}
+.subtitle {
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px / 18px * 100%;
+    letter-spacing: 6px;
+    color: #FFC178;
+
+    &::before {
+        content: '';
+        width: 72px;
+        height: 2px;
+        background: #FFC178;
+        margin-right: 32px;
+    }
+
+    &--slider::after {
+        content: '';
+        width: 72px;
+        height: 2px;
+        background: #FFC178;
+        margin-left: 32px;
+    }
+}
+.text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px / 18px * 100%;
+}
+
+.text-social {
+    font-size: 18px;
+    line-height: 21px / 18px * 100%;
+}
+.text-contact {
+    font-size: 18px;
+    line-height: 21px / 18px * 100%;
+    color: #808080;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: 0.8s ease 0.8s;
+    &.active {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+
+    &__subtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px / 18px * 100%;
+        writing-mode: vertical-rl;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__link {
+        margin-top: 20px;
+        font-size: 24px;
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.ibg {
+    position: relative;
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+}

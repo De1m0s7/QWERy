@@ -1,0 +1,493 @@
+@media (max-width: 1312px) {
+    .header {
+        
+    }
+
+    .article {
+        
+        &__item {
+            
+        }
+
+        &__image {
+            flex: 0 0 497px;
+            min-height: 620px;
+        }
+
+		&__item-content {
+            
+		}
+    }
+
+    .slider {
+        margin: 110px 0;
+
+        &__slider {
+            height: 650px;
+        }
+
+        &__content {
+            max-width: 750px;
+        }
+    }
+
+    .footer {
+    
+        &__content {
+            padding: 55px 40px 100px 0;
+        }
+    }
+
+    //----------------------ui--------------------//
+    .main-title {
+        font-size: 56px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    
+        &::before {
+            width: 60px;
+            margin-right: 25px;
+        }
+
+        &::after {
+            width: 60px;
+            margin-left: 25px;
+        }
+    }
+
+    .title {
+        font-size: 56px;
+        line-height: 87px / 64px * 100%;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+    //---------------------/ui--------------------//
+}
+
+@media (max-width: 992px) {
+    .header {
+
+        &__container {
+            
+        }
+    }
+
+    .article {
+
+		&__items {
+            flex-wrap: wrap;
+            justify-content: center;
+		}
+
+        &__image {
+            flex: 0 0 357px;
+            min-height: 470px;
+        }
+
+        &__subtitle {
+            margin-bottom: 24px;
+        }
+    
+        &__title {
+            margin-bottom: 20px;
+        }
+    
+        &__text {
+            margin-bottom: 20px;
+        }
+    }
+
+    .slider {
+        margin: 90px 0;
+
+        &__slider {
+            height: 650px;
+        }
+
+        &__content {
+            max-width: 550px;
+            padding: 5px 5px 40px 5px;
+        }
+
+        .swiper-button-prev::after,
+        .swiper-button-next::after {
+            display: none;
+        }
+
+        .swiper-pagination {
+            display: block;
+        }
+
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background-color: #FFFFFF;
+        }
+    }
+
+    .start-trip {
+        padding: 0 0 40px 0;
+
+        &__text {
+            font-size: 18px;
+            margin-right: 30px;
+        }
+    }
+
+    .form-email {
+        max-width: 300px;
+    
+        &__title {
+            font-size: 24px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .menu-footer {
+
+        &__item {
+            margin-bottom: 26px;
+        }
+    
+        &__link {
+            font-size: 15px;
+            line-height: 15px;
+    
+            &--main {
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+    }
+
+    .copyright {
+        padding: 90px 0 60px 0;
+    }
+    
+    .footer {
+        padding: 50px 0 0 0;
+    
+        &__content {
+            padding: 50px 20px 50px 0;
+        }
+    }
+
+    //----------------------ui--------------------//
+    .title {
+        font-size: 34px;
+    }
+    //---------------------/ui--------------------//
+}
+
+@media (min-width: 993px) {
+    .menu {
+    
+        &__body {
+            
+        }
+    
+        &__item {
+            
+        }
+    
+        &__link {
+            transition: color 0.4s ease;
+            &:hover {
+                color: #bd7b00;
+            }
+        }
+    }
+
+    .social {
+
+        &__link {
+            transition: color 0.5s ease;
+            &:hover {
+                color: #f1a20e;
+            }
+        }
+    }
+
+    .button {
+        transition: all 0.3s ease;
+        &:hover {
+            color: #f1a20e;
+        }
+    }
+
+    .btn-link {
+        transition: all 0.5s ease;
+        &:hover {
+            color: #f1a20e;
+        }
+        &:hover &__icon {
+            transform: rotate(90deg);
+        }
+		
+
+        &__icon {
+            transition: all 0.4s ease;
+        }
+    }
+
+    .start-trip {
+        
+        &__button {
+            &:hover {
+                background: #c0c0c0;
+                border-radius: 25px;
+            }
+        }
+    }
+
+    .form-email {
+
+		&__input-submit:hover {
+            background: #c0c0c0;
+		}
+    }
+
+    .menu-footer {
+
+		&__link {
+            transition: all 0.5s ease;
+            &:hover {
+                color: #f1a20e;
+            }
+		}
+    }
+
+    .addition {
+
+		&__links-link {
+            transition: all 0.5s ease;
+            &:hover {
+                color: #f1a20e;
+            }
+		}
+    }
+
+    .addition {
+
+		&__social-link {
+            transition: all 0.5s ease;
+            &:hover {
+                color: #f1a20e;
+            }
+		}
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        min-width: 320px;
+    }
+    
+    .header {
+
+        &__container {
+            
+        }
+
+        &__body {
+            margin: 0 0 390px 0;
+        }
+
+        &__menu {
+            margin: 0 0 60px 0;
+            height: 140px;
+            flex-direction: column;
+        }
+
+        &__title {
+            margin: 0 0 60px 0;
+        }
+    }
+
+    .menu {
+
+        &__body {
+            width: 300px;
+            justify-content: space-around;
+        }
+    
+        &__item {
+        }
+    
+        &__link {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 25px / 18px * 100%;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+
+    .article {
+
+        &__item {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__image {
+            flex: 0 0 257px;
+            min-height: 370px;
+        }
+
+        &__item-content {
+            padding: 20px 0 0 0;
+        }
+    }
+
+    .slider {
+        margin: 60px 0;
+
+        &__slider {
+            height: 620px;
+        }
+    }
+
+    .start-trip {
+
+        &__content {
+            flex-direction: column;
+        }
+
+        &__block {
+            text-align: center;
+        }
+
+        &__text {
+            display: block;
+            margin: 20px 0 10px 0;
+        }
+    }
+
+    .form-email {
+        margin-bottom: 40px;
+    }
+    
+    .menu-footer {
+    
+        &__list {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    
+        &__item {
+            margin-bottom: 18px;
+        }
+    }
+
+    .addition {
+        padding: 0;
+
+		&__content {
+            flex-direction: column;
+            justify-content: flex-start;
+		}
+
+		&__links {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 40px;
+
+            *:last-child {
+                margin-bottom: 0;
+            }
+		}
+
+		&__links-link {
+            margin: 0 0 20px 0;
+		}
+
+		&__social {
+		}
+
+		&__social-link {
+            font-size: 18px;
+            margin-left: 40px;
+		}
+    }
+    
+    .copyright {
+        padding: 80px 0 50px 0;
+    }
+
+    .footer {
+        padding: 0;
+    
+        &__container {
+        }
+    
+        &__items {
+        }
+    
+        &__item {
+        }
+    
+        &__content {
+            padding: 50px 0 50px 0;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        &__menu {
+    
+        }
+    }
+
+//----------------------ui--------------------//
+    .main-title {
+        font-size: 29px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        letter-spacing: 2px;
+
+        &::before {
+            width: 35px;
+            margin-right: 15px;
+        }
+
+        &::after {
+            width: 35px;
+            margin-left: 15px;
+        }
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .social {
+        top: 140px;
+    
+        &__subtitle {
+            font-size: 14px;
+        }
+    
+        &__link {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    }
+
+    .btn-link {
+        font-size: 14px;
+    }
+//---------------------/ui--------------------//
+}
